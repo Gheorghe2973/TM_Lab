@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5jux4kvtu5fe"]
+
+[ext_resource type="Script" uid="uid://bih18wrp4lcmd" path="res://ctulhu.gd" id="1_7b0g6"]
+[ext_resource type="Texture2D" uid="uid://bs8sl1aacwxpq" path="res://Eye_of_Ctulhu.png" id="2_tjs3k"]
+
+[node name="Ctulhu" type="Node2D"]
+script = ExtResource("1_7b0g6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(376, 202)
+scale = Vector2(0.467665, 0.46944)
+texture = ExtResource("2_tjs3k")
